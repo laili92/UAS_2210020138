@@ -1,4 +1,25 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show
+        AppBar,
+        BuildContext,
+        Center,
+        CircleAvatar,
+        Colors,
+        Column,
+        FontWeight,
+        Icon,
+        Icons,
+        MainAxisAlignment,
+        NetworkImage,
+        Row,
+        Scaffold,
+        SizedBox,
+        State,
+        StatefulWidget,
+        Text,
+        TextAlign,
+        TextStyle,
+        Widget;
 
 // ignore: camel_case_types
 class profileDev extends StatefulWidget {
@@ -34,7 +55,7 @@ class _profileDevPageState extends State<profileDev> {
                 child: CircleAvatar(
                   radius: 130,
                   backgroundImage: NetworkImage(
-                    'https://cdn2.sharechat.com/img_402675_5dce23f_1671646398727_sc.jpg',
+                    'https://i.ibb.co/ZdHZFQY/pp-laili.jpg',
                   ),
                 ),
               ),

@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 import 'persegi.dart';
 import 'lingkaran.dart';
 import 'profil.dart';
-//import 'package:uas/main.dart';
-//import 'package:percobaan7_tugas_uts/screen/barang_view.dart';
-//import 'package:percobaan7_tugas_uts/screen/login.dart';
 
 // ignore: camel_case_types
 class menuAwal extends StatefulWidget {
